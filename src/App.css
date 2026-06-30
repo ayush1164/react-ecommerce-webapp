@@ -1,0 +1,20 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  /* Take all remaining space inside the flex container === Grow and occupy the remaining available space
+        ex: Navbar = 80px
+            Footer = 100px
+
+            Screen = 800px 
+
+            Remaining:
+                800 - 80 - 100 = 620px
+
+        Main Content gets 620px.
+    */
+  flex: 1;
+}

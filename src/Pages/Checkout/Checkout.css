@@ -1,0 +1,111 @@
+.place-order-cont {
+  width: 100%;
+  padding: 50px 80px;
+}
+
+.place-order {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 60px;
+  /* border: 1px solid red; */
+}
+
+.place-order-left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+
+.place-order-left .title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.place-order-left input {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  outline-color: tomato;
+  transition: all 0.2s ease;
+}
+
+.place-order-left input:focus{
+  border-color: #ff4500;
+  box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.15);
+}
+
+.place-order-left .multi-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.place-order-right {
+  width: 100%;
+  max-width: max(40%, 500px);
+}
+
+.place-order .card-total button {
+  margin-top: 30px;
+}
+
+.cart-total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-total-details {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.cart-total hr {
+  margin: 10px 0;
+}
+
+.cart-total button {
+  border: none;
+  color: white;
+  background-color: tomato;
+  width: max(15vw, 200px);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.cart-total button:hover{
+  background: #e03d00;
+}
+
+
+.overlay {
+  position: fixed;
+  /* z-index: 1000; */
+  inset: 0;
+  background: rgba(0, 0, 0, 0.684);
+  backdrop-filter: blur(2px);
+}
+
+/* 
+    inset mean: 
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0
+
+        for an popup overlay, we want the overlay to cover entire screen
+            position: fixed;
+            inset: 0;
+            background: rgba();
+*/

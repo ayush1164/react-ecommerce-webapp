@@ -1,0 +1,41 @@
+.sorting {
+    width: 350px;
+    max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 0 25px;
+}
+
+.sorting label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.sort-select {
+  width: 220px;
+  padding: 12px 15px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 15px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sort-select:hover {
+  border-color: #8b5cf6;
+}
+
+.sort-select:focus {
+  border-color: #8b5cf6;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.15);
+}
+
+.sort-select-options {
+  padding: 10px;
+}

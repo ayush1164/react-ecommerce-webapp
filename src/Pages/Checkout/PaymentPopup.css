@@ -1,0 +1,108 @@
+.payment-layout {
+  place-self: center;
+  position: relative;
+  top: 150px;
+  width: 400px;
+  border: 1px solid tomato;
+  color: #5d5d5d;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px 30px;
+  border-radius: 8px;
+  font-size: 14px;
+  animation: fadeIn 0.5s;
+  display: block;
+  box-shadow: 10px 5px 15px rgba(128, 128, 128, 0.566);
+}
+
+.pay-method {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.pay-method:hover {
+  background: #e6e6e6;
+  border: 1px solid rgb(0, 255, 0);
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+.payment-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.payment-layout h3 {
+  color: black;
+  margin: 5px 0px;
+}
+
+.cancel-btn {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+}
+
+.pay-method-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+}
+
+.pay-method label {
+  color: black;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.pay-method-layout input {
+  margin-top: 3.2px;
+}
+
+.pay-method-layout p {
+  margin-top: 2px;
+  color: #6b7280;
+}
+
+.payment-layout button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: large;
+  color: white;
+  background-color: tomato;
+  padding: 10px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 500;
+  transition: background 0.5s ease;
+}
+
+.payment-layout button:hover {
+  transform: scale(1.02);
+  background: #e03d00;
+}
+
+.available {
+  color: rgba(0, 128, 0, 0.634);
+}
+
+.unavailable {
+  color: rgba(255, 0, 0, 0.634);
+}

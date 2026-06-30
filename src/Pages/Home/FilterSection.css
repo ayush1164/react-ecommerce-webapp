@@ -1,0 +1,43 @@
+.filter-sec {
+  padding: 0px 80px;
+}
+
+.filter-sec p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.category-slider {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+  scrollbar-width: none;
+  list-style: none;
+}
+
+.category-slider::-webkit-scrollbar {
+  display: none; /*chrome*/
+}
+
+.category-btn {
+  flex: 0 0 auto;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 25px;
+  background: #f3f3f3;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.category-btn:hover {
+  background: #6c63ff;
+  color: white;
+}
+
+.category-btn.active {
+  background: #6c63ff;
+  color: white;
+}

@@ -1,0 +1,69 @@
+.my-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background: rgba(127, 255, 212, 0.468);
+  padding: 10px 80px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.my-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.my-list p {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.my-list p:hover {
+  color: #7c3aed;
+}
+
+.icon {
+  font-size: 35px;
+  color: #7c3aed;
+}
+
+.cart-logo {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.user-icon {
+  font-size: 40px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 5px;
+  transition: border-ccolor 0.3s ease;
+}
+
+.user-icon:hover {
+  transform: scale(1.1);
+  border-color:  #7c3aed;
+  background: #ffff;
+}
