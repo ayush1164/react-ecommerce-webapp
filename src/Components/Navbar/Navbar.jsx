@@ -34,7 +34,7 @@ const Navbar = () => {
         </li>
         <li className="my-list">
           <IoIosCart className="cart-logo" onClick={() => navigate("/cart")} />
-          <sup>({cartCount === 0 ? <div></div> : cartCount})</sup>
+          <span>{cartCount === 0 ? <span></span> : cartCount}</span>
         </li>
         <li className="my-list">
           <FaUserCircle className="user-icon" />
