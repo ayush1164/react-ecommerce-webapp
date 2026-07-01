@@ -13,6 +13,8 @@
 }
 
 .my-heading {
+  margin: 0;
+  padding: 0;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -29,7 +31,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .my-list p {
@@ -44,8 +46,7 @@
 }
 
 .icon {
-  font-size: 35px;
-  color: #7c3aed;
+  width: 40px;
 }
 
 .cart-logo {
@@ -59,7 +60,7 @@
   border: 1px solid;
   border-radius: 50%;
   padding: 5px;
-  transition: border-ccolor 0.3s ease;
+  transition: border-color 0.3s ease;
 }
 
 .user-icon:hover {

@@ -66,7 +66,7 @@ src/
 
 Clone the repository
 
-git clone https://github.com/your-username/mini-ecommerce-web-app.git
+git clone https://github.com/[your-username/mini-ecommerce-web-app.git](https://github.com/ayush1164/react-ecommerce-webapp.git)
 Move into the project directory
 
 cd mini-ecommerce-web-app
@@ -117,9 +117,9 @@ While building this project, I learned:
 
 Aayush Ughade
 
-GitHub: https://github.com/your-github-username
+GitHub: https://github.com/[your-github-username](https://github.com/ayush1164)
 
-LinkedIn: https://linkedin.com/in/your-linkedin
+LinkedIn: https://linkedin.com/in/[your-linkedin](https://linkedin.com/in/aayush-ughade)
 
 ---
 

@@ -20,7 +20,8 @@ const Navbar = () => {
   return (
     <nav className="my-navbar">
       <Link to="/" className="my-heading">
-        <HiMiniShoppingBag className="icon" />
+        {/* <HiMiniShoppingBag className="icon" /> */}
+        <img src="/shopping-bag.png" alt="" className="icon"/>
         <h1>E-Commerce</h1>
       </Link>
 
