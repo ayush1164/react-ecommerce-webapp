@@ -9,7 +9,6 @@
   justify-content: space-between;
   gap: 50px;
   margin-top: 60px;
-  /* border: 1px solid red; */
 }
 
 .place-order-left {
@@ -109,3 +108,17 @@
             inset: 0;
             background: rgba();
 */
+
+
+@media (max-width: 480px) {
+
+  .place-order-cont{
+    width: 100%;
+    padding: 0px 40px;}
+
+  .place-order{
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+}

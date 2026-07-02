@@ -51,7 +51,7 @@ const Checkout = () => {
                     <p>Total</p>
                   </b>
                   <b>
-                    <p>₹{totalCartValue + 80}</p>
+                    <p>₹{totalCartValue === 0 ? 0 : totalCartValue + 80}</p>
                   </b>
                 </div>
                 <hr />

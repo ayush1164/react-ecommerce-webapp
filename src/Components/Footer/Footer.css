@@ -87,3 +87,20 @@ h2 {
   font-size: smaller;
   font-weight: 200;
 }
+
+@media (max-width: 480px) {
+
+  .footer-cont {
+    padding: 10px 40px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .hr-line {
+    height: 1px;
+  }
+}

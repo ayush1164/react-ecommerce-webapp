@@ -1,7 +1,7 @@
 .payment-layout {
   place-self: center;
   position: relative;
-  top: 150px;
+  top: 120px;
   width: 400px;
   border: 1px solid tomato;
   color: #5d5d5d;
@@ -105,4 +105,13 @@
 
 .unavailable {
   color: rgba(255, 0, 0, 0.634);
+}
+
+
+@media (max-width: 480px) {
+  .payment-layout{
+    top: 50px;
+    width: 70%;
+    flex-shrink: inherit;
+  }
 }

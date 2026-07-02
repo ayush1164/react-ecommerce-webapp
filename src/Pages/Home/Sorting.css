@@ -1,6 +1,6 @@
 .sorting {
-    width: 350px;
-    max-width: 90%;
+  width: 350px;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,4 +38,13 @@
 
 .sort-select-options {
   padding: 10px;
+}
+
+
+@media (max-width: 480px) {
+  .sorting{
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 0px;
+  }
 }

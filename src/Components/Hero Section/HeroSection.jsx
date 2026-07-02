@@ -15,7 +15,7 @@ const HeroSection = () => {
                 Shop now
             </button>
         </div>
-        <div className='hero-img'>
+        <div className='hero-image'>
             <img src="/hero-image.jpg" alt="shopping banner" />
         </div>
     </section>

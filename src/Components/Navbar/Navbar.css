@@ -4,7 +4,7 @@
   z-index: 999;
   width: 100%;
   background: rgba(127, 255, 212, 0.468);
-  padding: 10px 80px !important;
+  padding: 10px 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,6 +65,85 @@
 
 .user-icon:hover {
   transform: scale(1.1);
-  border-color:  #7c3aed;
-  background: #ffff;
+  border-color: #7c3aed;
+}
+
+.mobile-menu-container {
+  display: none;
+}
+
+.explore-menu{
+  width: 30px;
+  cursor: pointer;
+}
+
+.mobile-nav-list {
+  position: fixed;
+  top: 60px;
+  right: 40px;
+  width: 200px;
+  max-width: 300px;
+  background: #7c3aed9d;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 1px 0px 5px gainsboro;
+  list-style: none;
+  display: none;
+}
+
+.mobile-nav-list .my-list{
+  margin: 10px 0 10px 0;
+}
+
+.mobile-nav-list .my-list p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+
+  .my-navbar{
+    padding: 10px 40px;
+  }
+
+  .my-heading {
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.icon {
+  width: 30px;
+}
+
+  .nav-list {
+    display: none;
+  }
+
+  .mobile-menu-container {
+    margin: 0;
+    padding: 0;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 1px solid red; */
+  }
+
+  .mobile-nav-list {
+    display: block;
+  }
+
+  .my-list p:hover{
+    color: white;
+  }
+
+  .cart-logo{
+    font-size: 30px;
+  }
+
+  .user-icon{
+    font-size: 30px;
+  }
 }

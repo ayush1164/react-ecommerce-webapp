@@ -18,3 +18,9 @@
 .input-search::placeholder{
     color: #9ca3af;
 }
+
+@media (max-width: 480px) {
+    .input-search{
+        max-width: 100%;
+    }
+}

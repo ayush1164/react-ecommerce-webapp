@@ -41,3 +41,14 @@
   background: #6c63ff;
   color: white;
 }
+
+@media (max-width: 480px){
+  .filter-sec{
+    padding: 0px 40px;
+  }
+
+  .category-slider{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

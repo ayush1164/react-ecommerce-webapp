@@ -3,13 +3,13 @@
     padding-top: 90px;
     display: flex;
     align-items: center;
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 
 .Confirm-order{
     max-width: 700px;
-    padding: 0px 80px;
+    padding: 10px 80px;
     border-radius: 12px;
     /* box-shadow: 0 4px 15px rgba(0,0,0,.1); */
     /* border: 1px solid red; */
@@ -26,8 +26,8 @@
 }
 
 .confirmation span{
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-family:   Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
 }
 
 .tracking-id{
@@ -62,4 +62,11 @@
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .Confirm-order{
+        width: 100%;
+        padding: 10px 40px;
+    }
 }
