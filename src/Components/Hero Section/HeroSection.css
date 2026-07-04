@@ -74,3 +74,25 @@
     width: 100%;
   }
 }
+
+@media (max-width: 1024px) {
+  .hero {
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-image {
+    width: 100vw;
+    padding: 10px 50px;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+}

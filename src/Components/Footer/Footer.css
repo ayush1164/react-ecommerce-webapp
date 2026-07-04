@@ -104,3 +104,19 @@ h2 {
     height: 1px;
   }
 }
+
+@media (max-width: 1024px) {
+
+  .footer-cont {
+    padding: 30px 50px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 50px;
+  }
+
+  .hr-line {
+    height: 1px;
+  }
+}

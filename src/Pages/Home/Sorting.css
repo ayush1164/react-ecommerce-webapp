@@ -48,3 +48,9 @@
     padding: 0px;
   }
 }
+
+@media (max-width: 1024) {
+  .sorting{
+    width: 100%;
+  }
+}

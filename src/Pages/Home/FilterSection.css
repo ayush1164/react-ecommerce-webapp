@@ -52,3 +52,14 @@
     margin-bottom: 20px;
   }
 }
+
+@media (max-width: 1024px){
+  .filter-sec{
+    padding: 0px 50px;
+  }
+
+  .category-slider{
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+  }
+}
